@@ -9,16 +9,16 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: 개발 Archive
+subtitle: "Resume 겸 논문 정리"
+email: pskhanyang@gmail.com
+name: Sangki ParK
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  Resume 겸 논문 정리
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
+baseurl: "/post" # the subpath of your site, e.g. /blog/
 url: "http://psk9211.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "/assets/logo.png"
@@ -81,8 +81,8 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: psk9211
+    url: https://github.com/psk9211
     desc: Fork me on GitHub
     share: false
 
