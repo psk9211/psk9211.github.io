@@ -48,14 +48,11 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: Project
+    desc: "끝났거나 진행중인 프로젝트"
 
-  - cat: test1
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-  - cat: test2
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: Paper Review
+    desc: "논문 공부 저장소"
 
 # Social icons and sharing options
 #
@@ -89,12 +86,6 @@ social:
     desc: Fork me on GitHub
     share: false
 
-  - name: YouTube
-    icon: youtube
-    username:
-    url:
-    desc: Subscribe on YouTube
-    share: false
 
 
 # Social sharing protocols

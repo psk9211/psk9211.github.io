@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Eyeriss V2, 2019"
+date:   2019-05-15 08:43:59
+author: Sangki Park
+categories: Paper Review
+tags:	
+cover:  "/assets/instacode.png"
+---
+
+
