@@ -51,7 +51,7 @@ descriptions:
   - cat: Project
     desc: "끝났거나 진행중인 프로젝트"
 
-  - cat: Paper Review
+  - cat: "Paper Review"
     desc: "논문 공부 저장소"
 
 # Social icons and sharing options
