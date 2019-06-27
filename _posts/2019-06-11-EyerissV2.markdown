@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Eyeriss V2, 2019"
+title:  "Optimizing Sparse Matrix-Vector Multiplication on Emerging Many-Core Architectures, 2018"
 date:   2019-05-15 08:43:59
 author: Sangki Park
 categories: Paper_Review
@@ -8,4 +8,17 @@ tags:
 cover:  "/assets/instacode.png"
 ---
 
+이번 포스팅에서 다룰 논문은 2018년도 HPCC에 실린 ["Optimizing Sparse Matrix-Vector Multiplication on Emerging Many-Core Architectures"][paper_arxiv]이다.
+이 논문은 Intel Knights Landing (KNL) XeonPhi 와 ARM기반 FT-2000Plus (FTP) 아키텍쳐에서 Sparse 행렬 표현방식을 바꿨을때 sparse matrix vector multiplication (SpMV)에 어떤 영향이 있는지에 대한 실험을 진행하였다.
+956개의 데이터셋 종류를 사용했으며, 5가지의 SpMV 표현방식을 이용했다. 머신러닝을 통해 아키텍쳐와 프로그램 input에 따른 적합한 sparse 행렬 표현을 선택하도록 하는 예측모델을 만들었으며, 해당 모델은 KNL, FTP에서 각각 95%, 91%의 "best available performance"를 달성하였고 profiling overhead가 없었다고 한다.
 
+해당 논문에서 밝힌 핵심 contributions는 다음과 같다.
+>- It presents an extensible framework to evaluate SpMV performance on KNL and FTP, two emerging many-core architectures for HPC;
+>- It is the first comprehensive study on the impact of sparse matrix representations on KNL and FTP;
+>- It develops a novel machine learning based approach choose the right representation for a given architecture, delivering significantly good performance across manycore architectures;
+>- Our work is immediately deployable as it requires no modification to the program source code.
+
+
+
+
+[paper_arxiv]:  https://arxiv.org/abs/1805.11938
