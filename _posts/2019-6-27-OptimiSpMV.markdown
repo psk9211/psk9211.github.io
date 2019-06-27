@@ -36,8 +36,8 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
     - Table 1 예시는 $K=2$ 일때
 
 
-![fig1](./assets/posts/OptimizingSpMVM_on_manycore/fig1.PNG)
-<center><img src="./assets/posts/OptimizingSpMVM_on_manycore/table1.png" width="70%"></center>
+![fig1](assets/posts/OptimizingSpMVM_on_manycore/fig1.PNG)
+<center><img src="assets/posts/OptimizingSpMVM_on_manycore/table1.png" width="70%"></center>
 
 ---
 사용한 하드웨어는 **FT-2000Plus** (FTP)와 Intel KNL 프로세서이다.
