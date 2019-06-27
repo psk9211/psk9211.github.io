@@ -36,7 +36,7 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
     - Table 1 예시는 $K=2$ 일때
 
 
-![fig1](/assets/posts/OptimizingSpMVM_on_manycore/fig1.png)
+![fig1](./assets/posts/OptimizingSpMVM_on_manycore/fig1.png)
 <center><img src="./assets/posts/OptimizingSpMVM_on_manycore/table1.png" width="70%"></center>
 
 ---
