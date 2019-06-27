@@ -6,6 +6,7 @@ author: Sangki Park
 categories: Paper_Review
 tags:	
 cover:  "/assets/resize_instacode.jpg"
+use_math: true
 ---
 
 이번 포스팅에서 다룰 논문은 2018년도 HPCC에 실린 ["Optimizing Sparse Matrix-Vector Multiplication on Emerging Many-Core Architectures"][paper_arxiv]이다.  
