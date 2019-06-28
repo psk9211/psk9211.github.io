@@ -52,14 +52,15 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 |Compiler|gcc v6.4.0 (-O3)|icc v17.0.4 (-O3)|
 |Dataset|SuiteSparse matrix collection|SuiteSparse matrix collection|
 
+<center>
+<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig" data-title="Fig. 2"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="40%"></a>
+<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig" data-title="Fig. 3"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="40%"></a>
+</center>
 
-![fig3](/assets/img/2019-6-27-OptimiSpMV/fig3.PNG){: width="30%"}{: .inlineblock}
-![fig4](/assets/img/2019-6-27-OptimiSpMV/fig2.PNG){: width="30%"}{: .inlineblock}
-
-
-<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig. 2"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="40%"></a>
-<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig. 3" data-title="Fig. 3"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="40%"></a>
-
+<center>
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig" data-title="Fig. 2"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="40%"></a>
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig" data-title="Fig. 3"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="40%"></a>
+</center>
 
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="60%"></center>
 
