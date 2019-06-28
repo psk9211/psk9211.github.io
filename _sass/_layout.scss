@@ -246,21 +246,19 @@ pre code.hljs {
 			}
 		}
 	}
-	img :not(.inlineblock):not(.inline){
+	img {
 		display: block;
 		margin: auto;
 		//width: 90%;
-
-		.inlineblock {
-			display: inline-block;
-			margin: auto;
-		}
-		.inline {
-			display: inline;
-			margin: auto;
-		}
 	}
-
+	img.inlineblock {
+		display: inline-block;
+		margin: auto;
+	}
+	img.inline {
+		display: inline;
+		margin: auto;
+	}
 
 	/*
 	*	Posts
