@@ -39,7 +39,9 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 
 ![fig1](/assets/img/2019-6-27-OptimiSpMV/fig1.PNG){: width="50%" height="50%"}
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="70%"></center>
-<center><img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="70%"></center>
+<center><img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="40%"></center>
+<img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="500">
+<img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="500px">
 
 ---
 사용한 하드웨어는 **FT-2000Plus** (FTP)와 Intel KNL 프로세서이다.
@@ -54,7 +56,7 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 |Dataset|SuiteSparse matrix collection|SuiteSparse matrix collection|
 
 
-<center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width=50%></center>
+<center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></center>
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="50%"></center>
 
 실제 코드 구현은 위의 알고리즘1 처럼 진행 되었다. OpenMP를 사용하여 thread 단위 병렬화를 하였으며, 구현 알고리즘은 각 방식마다 다르게 적용된다.
