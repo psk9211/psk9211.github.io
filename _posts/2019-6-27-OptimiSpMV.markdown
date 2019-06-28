@@ -54,8 +54,7 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 |Dataset|SuiteSparse matrix collection|SuiteSparse matrix collection|
 
 <center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig" data-title="Fig. 2"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></a>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig" data-title="Fig. 3"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"></a>
+    <a href="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig" data-title="Fig. 2"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></a><a href="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig" data-title="Fig. 3"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"></a>
 </center>
 <a href="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" data-lightbox="Fig" data-title="Algorithm 1"><img src="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="60%"></a>
 
