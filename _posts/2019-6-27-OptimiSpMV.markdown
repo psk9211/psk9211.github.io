@@ -38,7 +38,7 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 
 
 ![fig1](/assets/img/2019-6-27-OptimiSpMV/fig1.PNG)
-<center><img src="https://github.com/psk9211/psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="70%"></center>
+<center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="70%"></center>
 
 ---
 사용한 하드웨어는 **FT-2000Plus** (FTP)와 Intel KNL 프로세서이다.
