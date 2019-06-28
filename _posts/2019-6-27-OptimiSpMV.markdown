@@ -56,8 +56,9 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 <center>
     <a href="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig" data-title="Fig. 2"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></a>
     <a href="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig" data-title="Fig. 3"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"></a>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" data-lightbox="Fig" data-title="Algorithm 1"><img src="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="60%"></a>
 </center>
+<a href="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" data-lightbox="Fig" data-title="Algorithm 1"><img src="/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="60%"></a>
+
 
 실제 코드 구현은 위의 알고리즘1 처럼 진행 되었다. OpenMP를 사용하여 thread 단위 병렬화를 하였으며, 구현 알고리즘은 각 방식마다 다르게 적용된다.
 
@@ -68,22 +69,17 @@ SpMV 성능은 여러 요인에 의해 영향을 받는데, memory allocation, c
 NUMA-aware 방식을 이용해 FTP 프로세서에서 최적화를 진행하였을 때 CSR, CSR5, **ELL**, SELL, HYB 방식에서 각각 1.5x, 1.9x, **6.0x**, 2.0x, 1.9x 배 만큼의 속도 향상이 있었다고 한다. (Fig.4)  
 KNL에서 vectorization의 결과는 Fig.5 와 같다.
 
-<center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig4.PNG" data-lightbox="Fig" data-title="Fig. 4"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig4.PNG" width="50%"></a>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig5.PNG" data-lightbox="Fig" data-title="Fig. 5"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig5.PNG" width="50%"></a>
-</center>
+<center><a href="/assets/img/2019-6-27-OptimiSpMV/fig4.PNG" data-lightbox="Fig" data-title="Fig. 4"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig4.PNG" width="50%"></a><a href="/assets/img/2019-6-27-OptimiSpMV/fig5.PNG" data-lightbox="Fig" data-title="Fig. 5"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig5.PNG" width="50%"></a></center>
 <br>
 Fig.6의 경우 FTP가 KNL에 비해 얼마나 더 빠른가를 보여주고 있다. CSR, CSR5, ELL, SELL, HYB 방식에서 각각 1.9x, 2.3x, 1.3x, 1.5x, 1.4x 배 만큼 차이가 난다고 한다. 논문에서는 이 차이의 이유를 속도가 빠른 MCDRAM 때문이라고 하고 있다.
 <br><br>
-<center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig6.PNG" data-lightbox="Fig" data-title="Fig. 6"><img src="/assets/img/2019-6-27-OptimiSpMV/fig6.PNG" width="70%"></a>
-</center><br>
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig6.PNG" data-lightbox="Fig" data-title="Fig. 6"><img src="/assets/img/2019-6-27-OptimiSpMV/fig6.PNG" width="70%"></a><br>
 
 FTP와 KNL을 각각 64, 272 thread로 non-zero값의 개수가 다른 행렬들을 다른 방식으로 돌린 결과는 Fig.7과 Table.3 과 같다.<br><br>
-<center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig7.PNG" data-lightbox="Fig" data-title="Fig. 7"><img src="/assets/img/2019-6-27-OptimiSpMV/fig7.PNG" width="70%"></a>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/table3.PNG" data-lightbox="Fig" data-title="Table. 3"><img src="/assets/img/2019-6-27-OptimiSpMV/table3.PNG" width="70%"></a>
-</center><br>
+
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig7.PNG" data-lightbox="Fig" data-title="Fig. 7"><img src="/assets/img/2019-6-27-OptimiSpMV/fig7.PNG" width="70%"></a>
+<a href="/assets/img/2019-6-27-OptimiSpMV/table3.PNG" data-lightbox="Fig" data-title="Table. 3"><img src="/assets/img/2019-6-27-OptimiSpMV/table3.PNG" width="70%"></a>
+<br>
 
 Table.3은 특이하게 단일 방식을 사용했을때와 각각 optimal 한 경우를 사용했을때 느려진 정도를 나타내고 있다. FTP에서는 HYB와 SELL 방식이, KNL에서는 CSR 방식이 가장 *덜 느려졌*으므로 단일 방식을 사용한다면 이걸 사용하는게 좋다고 할 수 있다.
 
@@ -95,18 +91,14 @@ Table.3은 특이하게 단일 방식을 사용했을때와 각각 optimal 한 �
 
 <br>
 <center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig9.PNG" data-lightbox="Fig" data-title="Fig. 9"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig9.PNG" width="50%"></a>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/table4.PNG" data-lightbox="Fig" data-title="Table. 4"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/table4.PNG" width="50%"></a>
-</center><br>
-<center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig10.PNG" data-lightbox="Fig" data-title="Fig. 10"><img src="/assets/img/2019-6-27-OptimiSpMV/fig10.PNG" width="80%"></a>
-</center><br>
+    <a href="/assets/img/2019-6-27-OptimiSpMV/fig9.PNG" data-lightbox="Fig" data-title="Fig. 9"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/fig9.PNG" width="50%"></a><a href="/assets/img/2019-6-27-OptimiSpMV/table4.PNG" data-lightbox="Fig" data-title="Table. 4"><img class="inlineblock" src="/assets/img/2019-6-27-OptimiSpMV/table4.PNG" width="50%"></a>
+</center>
+<br>
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig10.PNG" data-lightbox="Fig" data-title="Fig. 10"><img src="/assets/img/2019-6-27-OptimiSpMV/fig10.PNG" width="80%"></a><br>
 
 논문에서 사용한 decision-tree 방식 (DTC) 이외의 다른 방식들의 예측 정확도는 Fig.11에 나타나 있다. FTP에 대해서는 DTC 방식이 가장 좋으며, KNL에서는 VC, KNC, LR, RFC, DTC가 모두 93% 이상의 정확도 (내가 보기에) 를 보여주고 있다.
 
-<center>
-    <a href="/assets/img/2019-6-27-OptimiSpMV/fig11.PNG" data-lightbox="Fig" data-title="Fig. 11"><img src="/assets/img/2019-6-27-OptimiSpMV/fig11.PNG" width="70%"></a>
-</center><br>
+<a href="/assets/img/2019-6-27-OptimiSpMV/fig11.PNG" data-lightbox="Fig" data-title="Fig. 11"><img src="/assets/img/2019-6-27-OptimiSpMV/fig11.PNG" width="70%"></a><br>
 
 ---
 
