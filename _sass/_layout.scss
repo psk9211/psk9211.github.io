@@ -249,7 +249,11 @@ pre code.hljs {
 	img {
 		display: block;
 		margin: auto;
-		width: 90%;
+		//width: 90%;
+	}
+	.img_sameline {
+		display: inline-block;
+		margin: auto;
 	}
 	/*
 	*	Posts

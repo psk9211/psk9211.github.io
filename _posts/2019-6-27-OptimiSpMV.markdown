@@ -38,6 +38,8 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 
 
 ![fig1](/assets/img/2019-6-27-OptimiSpMV/fig1.PNG){: width="50%" height="50%"}
+![fig1](/assets/img/2019-6-27-OptimiSpMV/fig1.PNG)
+![fig1](/assets/img/2019-6-27-OptimiSpMV/fig1.PNG){: .img_sameline}
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="70%"></center>
 <center><img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="40%"></center>
 <img src="/assets/img/2019-6-27-OptimiSpMV/table1.PNG" width="500">
