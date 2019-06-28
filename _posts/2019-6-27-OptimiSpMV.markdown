@@ -53,12 +53,12 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 |Dataset|SuiteSparse matrix collection|SuiteSparse matrix collection|
 
 
-![fig3](/assets/img/2019-6-27-OptimiSpMV/fig3.PNG){: width="30%"}{: .img_inlineblock}
-![fig4](/assets/img/2019-6-27-OptimiSpMV/fig2.PNG){: width="30%"}{: .img_inlineblock}
+![fig3](/assets/img/2019-6-27-OptimiSpMV/fig3.PNG){: width="30%"}{: .inlineblock}
+![fig4](/assets/img/2019-6-27-OptimiSpMV/fig2.PNG){: width="30%"}{: .inlineblock}
 
 
-<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig. 2"><img class="img_sameline" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="40%"></a>
-<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig. 3" data-title="Fig. 3"><img class="img_sameline" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="40%"></a>
+<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig. 2"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="40%"></a>
+<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig. 3" data-title="Fig. 3"><img class="inlineblock" src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="40%"></a>
 
 
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="60%"></center>
