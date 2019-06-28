@@ -247,18 +247,22 @@ pre code.hljs {
 		}
 	}
 	img {
-		display: block;
+		//display: block;
 		margin: auto;
 		//width: 90%;
 
-		.img_inlineblock {
+		.block {
+			display: block;
+		}
+		.inlineblock {
+			display: inline-block
+		}
+		.inline {
 			display: inline
 		}
 	}
 
-	img.img_sameline {
-		display: inline-block;
-	}
+
 	/*
 	*	Posts
 	*/
