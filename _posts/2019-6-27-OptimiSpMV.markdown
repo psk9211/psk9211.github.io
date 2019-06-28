@@ -54,12 +54,13 @@ SpMV는 보통 $y = Ax$ ($A\in \mathbb R^{M\times N}, x\in \mathbb R^{N}, y\in \
 
 
 ![fig3](/assets/img/2019-6-27-OptimiSpMV/fig3.PNG){: width="50%" height="50%"}{: .image_sameline}
-![fig4](/assets/img/2019-6-27-OptimiSpMV/fig4.PNG){: width="50%" height="50%"}{: .image_sameline}
+![fig4](/assets/img/2019-6-27-OptimiSpMV/fig2.PNG){: width="50%" height="50%"}{: .image_sameline}
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></center>
 
-<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig. 2" width="50%"></a>
 
 <a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" data-lightbox="Fig. 2"><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig2.PNG" width="50%"></a>
+<a href="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" data-lightbox="Fig. 3"><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/fig3.PNG" width="50%"></a>
+
 
 <center><img src="https://psk9211.github.io/assets/img/2019-6-27-OptimiSpMV/al1.PNG" width="50%"></center>
 
