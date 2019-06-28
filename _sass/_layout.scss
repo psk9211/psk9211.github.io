@@ -251,15 +251,11 @@ pre code.hljs {
 		margin: auto;
 		//width: 90%;
 
-		.block {
-			display: block;
-			margin: auto;
-		}
-		.inlineblock {
+		.inlineblock :not(img) {
 			display: inline-block;
 			margin: auto;
 		}
-		.inline {
+		.inline :not(img) {
 			display: inline;
 			margin: auto;
 		}
