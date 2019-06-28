@@ -246,16 +246,16 @@ pre code.hljs {
 			}
 		}
 	}
-	img {
+	img :not(.inlineblock):not(.inline){
 		display: block;
 		margin: auto;
 		//width: 90%;
 
-		.inlineblock :not(img) {
+		.inlineblock {
 			display: inline-block;
 			margin: auto;
 		}
-		.inline :not(img) {
+		.inline {
 			display: inline;
 			margin: auto;
 		}
